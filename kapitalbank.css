@@ -1,0 +1,280 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.topmenu {
+  padding-top: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-bottom: 10px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.linkler {
+  color: black;
+  text-decoration: none;
+  padding: 1px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.fizikisexs {
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fa-solid {
+  color: #f45369;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 7px;
+  border-color: #f45369;
+}
+
+.fas {
+  color: #f45369;
+  padding-left: 3px;
+  padding-right: 7px;
+}
+
+.girisinortasi {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+.girisdekilkhisse {
+  font-size: 13px;
+}
+
+.girisinalti {
+  background-color: #e8ecf1;
+}
+
+a:hover {
+  color: black;
+}
+
+.logoyani {
+  background-color: white;
+}
+
+.sifaris {
+  border: solid;
+  text-align: center;
+  border-radius: 10px;
+  border-color: #f45369;
+  color: white;
+  background-color: #f45369;
+  font-size: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+main #lotoreya{
+    padding: 3vw 8vw;
+    background-color: #e8ecf1;
+    padding-bottom: 8vw;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row.solteref .lotometn h2 {
+    color: #2e3131;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row.solteref .lotometn button {
+    margin-top: 0.5vw;
+    background-color: #f45369;
+    border: 1px solid #f45369;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 0.8vw 7vw;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row .solteref .lotometn button:hover {
+    background-color: #ef3e42;
+    border: 1px solid #ef3e42;
+    transition: 0.5s;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row .sagteref {
+    display: flex;
+    justify-content: flex-end;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row .sagteref .lotosekil-container {
+    width: 90%;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row .sagteref .lotosekil-container img {
+    float: right;
+    width: 100%;
+  }
+  main #lotoreya .lotoreya-sehifesi .container .row .sagteref .lotosekil-container img:hover {
+    width: 105%;
+    transition: 0.5s;
+  }
+  main #servisler {
+    padding: 3vw 8vw;
+    margin-top: -10vw;
+  }
+  main #servisler .servissec {
+    padding: 2vw;
+    background-color: #f9fafb;
+    border: 1px solid #f9fafb;
+    border-radius: 8px;
+  }
+  main #servisler .servissec .container .row .col .box {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 1.5vw;
+    box-shadow: 2px 2px 5px #e8ecf1;
+  }
+  main #servisler .servissec .container .row .col .box i {
+    font-size: 35px;
+    color: #f45369;
+  }
+  main #servisler .servissec .container .row .col .box a {
+    color: #2e3131;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+  }
+  main #servisler .servissec .container .row .col .box a p {
+    margin-right: 4px;
+    font-weight: 600;
+  }
+  main #servisler .servissec .container .row .col .box:hover {
+    width: 105%;
+    height: 105%;
+    transition: 0.9s !important;
+  }
+  main #kart {
+    padding: 3vw 8vw;
+  }
+  main #kart .kartlarbarede .container .row .solteref .kartmetni h4 {
+    font-size: 36px;
+    color: #2e3131;
+  }
+  main #kart .kartlarbarede .container .row .solteref .kartmetni h4 .kesbekkart {
+    font-weight: 600 !important;
+    padding-left: 8px;
+  }
+  main #kart .kartlarbarede .container .row .solteref .kartmetni .karthaqda {
+    font-size: 18px;
+    color: #2e3131;
+  }
+  main #kart .kartlarbarede .container .row .sagteref {
+    display: flex;
+    justify-content: flex-end;
+  }
+  main #kart .kartlarbarede .container .row .sagteref .container-sekil {
+    width: 50%;
+  }
+  main #kart .kartlarbarede .container .row .sagteref .container-sekil img {
+    width: 100%;
+  }
+  main #kart .kartfaiz {
+    background-color: #e8ecf1;
+    margin: -8vw;
+  }
+  main #kart .kartfaiz .container {
+    padding: 2vw 4.5vw;
+    padding-top: 3vw;
+  }
+  main #kart .kartfaiz .container .row .col-8 .list-containers .kartinfosu h4 {
+    color: #f45369;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  main #kart .kartfaiz .container .row .col-8 .list-containers   .info-about-card p {
+    font-size: 16px;
+    color: #2e3131;
+  }
+  main #kart .kartfaiz .container .row .col-8 .button-container {
+    margin-top: 1vw;
+  }
+  main #kart .kartfaiz .container .row .col-8 .button-container button {
+    color: white;
+    background-color: #f45369;
+    border: 1px solid #f45369;
+    border-radius: 8px;
+    padding: 0.7vw 6.5vw;
+    font-size: 24px;
+  }
+  main #card .kartfaiz .container .row .col-8 .button-container button:hover {
+    background-color: #ef3e42;
+    border: 1px solid #ef3e42;
+    transition: 0.7s;
+  }
+  main #ehtiyac {
+    margin-top: 8vw;
+    padding: 2vw 8vw;
+  }
+  main #ehtiyac .ehtiyac-melumat .container .row .solteref {
+    display: flex;
+    justify-content: flex-start;
+  }
+  main #ehtiyac .ehtiyac-melumat .container .row .solteref .container-sekil {
+    margin-left: -4vw;
+    width: 100%;
+  }
+  main #ehtiyac .ehtiyac-melumat .container .row .solteref .container-sekil img {
+    width: 120%;
+  }
+  main #ehtiyac .ehtiyac-melumat .container .row .sagteref {
+    margin-top: -20vw;
+  }
+  main #ehtiyac .ehtiyac-melumat .container .row .sagteref .karttexti h4 {
+    font-size: 36px;
+    color: #2e3131;
+  }
+  main #ehtiyac .nehtiyac-melumat .container .row .sagteref .karttexti h4 .keshbeck {
+    font-weight: 600 !important;
+    padding-left: 8px;
+  }
+  main #ehtiyac .ehtiyac-melumat .container .row .sagteref .karttexti.kart-esas {
+    font-size: 18px;
+    color: #2e3131;
+  }
+  main #ehtiyac .kartqisamelumat {
+    background-color: #e8ecf1;
+    margin: -8vw;
+  }
+  main #ehtiyac .kartqisamelumat .container {
+    padding: 2vw 4.5vw;
+    margin-top: -15vw;
+  }
+  main #ehtiyac .kartqisamelumat .container .row .col-8 .list-containers .info-kart h4 {
+    color: #f45369;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  main #ehtiyac .kartqisamelumat .container .row .col-8 .list-containers .info-about-card p {
+    font-size: 16px;
+    color: #2e3131;
+  }
+  main #ehtiyac .kartqisamelumat  .container .row .col-8 .button-container {
+    margin-top: 1vw;
+  }
+  main #ehtiyac .kartqisamelumat .container .row .col-8 .button-container button {
+    color: white;
+    background-color: #f45369;
+    border: 1px solid #f45369;
+    border-radius: 8px;
+    padding: 0.7vw 6.5vw;
+    font-size: 24px;
+  }
+  main #ehtiyac .kartqisamelumat .container .row .col-8 .button-container button:hover {
+    background-color: #ef3e42;
+    border: 1px solid #ef3e42;
+    transition: 0.7s;
+  }/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=kapitalbank.css.map */

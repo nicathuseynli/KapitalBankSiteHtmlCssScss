@@ -1,0 +1,318 @@
+@import "../node_modules/bootstrap/scss/variables";
+* {
+    font-family: "Source Sans Pro", sans-serif;
+    box-sizing: border-box;
+  }
+.topmenu{
+    padding-top: 20px;
+    display: inline-flex;
+    padding-bottom: 10px;
+    list-style: none;
+    padding-bottom: 5px;
+}
+.linkler{
+    color: black;
+    text-decoration: none;
+    padding: 1px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.fizikisexs{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fa-solid{
+    color:rgb(244,83,105);
+    border:1px solid;
+    padding: 5px;
+    border-radius:7px;
+    border-color: rgb(244,83,105);
+}
+.fas {
+    color: rgb(244,83,105);
+    padding-left: 3px;
+    padding-right: 7px;
+}
+.girisinortasi{
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.girisdekilkhisse{
+    font-size: 13px;
+}
+.girisinalti{
+     background-color:rgb(232,236,241);
+     
+}
+a:hover{
+    color: black;
+}
+.logoyani{
+    background-color:white ;
+}
+.sifaris{
+    border:solid;
+    text-align: center;
+    border-radius:10px;
+    border-color: rgb(244,83,105);
+    color: white;
+    background-color:rgb(244,83,105);
+    font-size: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+main {
+    #lotoreya {
+      padding: 3vw 8vw;
+      background-color: $default-bg-color;
+      padding-bottom: 8vw;
+      .lottery-sehifesi{
+        .container {
+          .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            .solteref {
+              .lotometn {
+                h3 {
+                  color: $text-color;
+                  font-size: 35px;
+                  font-weight: 700;
+                }
+                button {
+                  margin-top: 0.5vw;
+                  background-color: $primary-color;
+                  border: 1px solid $primary-color;
+                  color: white;
+                  border-radius: 8px;
+                  font-size: 20px;
+                  padding: 0.8vw 7vw;
+                }
+                button:hover {
+                  background-color: $hover-color;
+                  border: 1px solid $hover-color;
+                  transition: 0.5s;
+                }
+              }
+            }
+            .sagteref {
+              display: flex;
+              justify-content: flex-end;
+              .lotosekil-container {
+                width: 90%;
+                img {
+                  float: right;
+                  width: 100%;
+                }
+                img:hover {
+                  width: 105%;
+                  transition: 0.5s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #servisler {
+      padding: 3vw 8vw;
+      margin-top: -10vw;
+      .servissec{
+        padding: 2vw;
+        background-color: #f9fafb;
+        border: 1px solid #f9fafb;
+        border-radius: 8px;
+        .container {
+          .row {
+            .col {
+              .box {
+                background-color: white;
+                border: 1px solid white;
+                border-radius: 8px;
+                padding: 1.5vw;
+                box-shadow: 2px 2px 5px $default-bg-color;
+                i {
+                  font-size: 35px;
+                  color: $primary-color;
+                }
+                a {
+                  color: $text-color;
+                  text-decoration: none;
+                  text-align: center;
+                  font-size: 18px;
+                  p {
+                    margin-right: 4px;
+                    font-weight: 600;
+                  }
+                }
+              }
+              .box:hover {
+                width: 105%;
+                height: 105%;
+                transition: 0.9s !important;
+              }
+            }
+          }
+        }
+      }
+    }
+    #kart {
+      padding: 3vw 8vw;
+      .kartlarbarede{
+        .container {
+          .row {
+            .solteref {
+              .kartmetni {
+                h4 {
+                  font-size: 36px;
+                  color: $text-color;
+                  .kesbekkart {
+                    font-weight: 600 !important;
+                    padding-left: 8px;
+                  }
+                }
+                .karthaqda {
+                  font-size: 18px;
+                  color: $text-color;
+                }
+              }
+            }
+            .sagteref {
+              display: flex;
+              justify-content: flex-end;
+              .container-sekil {
+                width: 50%;
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+      .kartfaiz {
+        background-color: $default-bg-color;
+        margin: -8vw;
+        .container {
+          padding: 2vw 4.5vw;
+          padding-top: 3vw;
+          .row {
+            .col-8 {
+              .list-containers {
+                  .kartinfosu {
+                  h4 {
+                    color: $primary-color;
+                    font-weight: 600;
+                    font-size: 28px;
+                  }
+                  p {
+                    font-size: 16px;
+                    color: $text-color;
+                  }
+                }
+              }
+              .button-container {
+                margin-top: 1vw;
+                button {
+                  color: white;
+                  background-color: $primary-color;
+                  border: 1px solid $primary-color;
+                  border-radius: 8px;
+                  padding: 0.7vw 6.5vw;
+                  font-size: 24px;
+                }
+                button:hover {
+                  background-color: $hover-color;
+                  border: 1px solid $hover-color;
+                  transition: 0.7s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #ehtiyac {
+      margin-top: 8vw;
+      padding: 2vw 8vw;
+      .ehtiyac-melumat {
+        .container {
+          .row {
+            .solteref {
+              display: flex;
+              justify-content: flex-start;
+              .sekil-container {
+                margin-left: -4vw;
+                width: 100%;
+                img {
+                  width: 120%;
+                }
+              }
+            }
+            .sagteref {
+              margin-top: -20vw;
+              .karttexti {
+                h4 {
+                  font-size: 36px;
+                  color: $text-color;
+                  .cashback {
+                    font-weight: 600 !important;
+                    padding-left: 8px;
+                  }
+                }
+                .card-esas {
+                  font-size: 18px;
+                  color: $text-color;
+                }
+              }
+            }
+          }
+        }
+      }
+      .kartqisamelumat {
+        background-color: $default-bg-color;
+        margin: -8vw;
+        .container {
+          padding: 2vw 4.5vw;
+          margin-top: -15vw;
+          .row {
+            .col-8 {
+              .list-containers {
+                .info-kart {
+                  h4 {
+                    color: $primary-color;
+                    font-weight: 600;
+                    font-size: 28px;
+                  }
+                  p {
+                    font-size: 16px;
+                    color: $text-color;
+                  }
+                }
+              }
+              .button-container {
+                margin-top: 1vw;
+                button {
+                  color: white;
+                  background-color: $primary-color;
+                  border: 1px solid $primary-color;
+                  border-radius: 8px;
+                  padding: 0.7vw 6.5vw;
+                  font-size: 24px;
+                }
+                button:hover {
+                  background-color: $hover-color;
+                  border: 1px solid $hover-color;
+                  transition: 0.7s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
